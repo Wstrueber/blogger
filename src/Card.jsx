@@ -105,7 +105,6 @@ const displayLS = () => {
     for (let i = 0; i < obj.length; i++) {
         arr.push([obj[i], localStorage.getItem(obj[i])]);
     }
-    console.log(arr)
     return arr;
 }
 
